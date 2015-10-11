@@ -1,0 +1,29 @@
+{
+  "name": "windows-service-helper",
+  "version": "0.1.0",
+  "description": "Helper for Node.js Windows service installation",
+  "author": {
+    "name": "Rafee Memon",
+    "email": "rafeememon@gmail.com",
+    "url": "https://github.com/rafeememon/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rafeememon/node-windows-service-helper.git"
+  },
+  "license": "MIT",
+  "homepage": "http://github.com/rafeememon/node-windows-service-helper",
+  "keywords": [
+    "node.js",
+    "windows",
+    "service"
+  ],
+  "bin": {
+    "windows-service": "./bin/windows-service.js"
+  },
+  "dependencies": {
+    "app-root-path": "~1.0.0",
+    "node-windows": "~0.1.10",
+    "yargs": "~3.27.0"
+  }
+}
